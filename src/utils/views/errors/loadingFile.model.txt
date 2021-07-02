@@ -1,0 +1,5 @@
+Hello, unfortunately on the day, date, the system encountered an error when checking the pre-determined Loading files.
+
+Please download the files again and install them as explained in the documentation.
+
+Do not modify the code or game files because this can cause errors in validations.

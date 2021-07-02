@@ -1,12 +1,14 @@
-from modules.verifier import Verifier
+from modules.Verifier import Verifier
+from modules.Window import Window
 
 
 class Sneak:
     def start():
-        try:
-            Verifier.files()
-        except:
-            return "error"
+        print("Starting process.")
+        Verifier.files()
+        print("Starting Window...")
+        game = Window.Start()
+        Window.Game(game)
 
     def close():
         print("Stoping process.")

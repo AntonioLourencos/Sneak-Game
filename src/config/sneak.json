@@ -1,4 +1,6 @@
 {
   "fruitColor": "#f28910",
-  "bodySneak": "#343638"
+  "bodySneak": "#343638",
+  "velocity": 5,
+  "display": [700, 500]
 }
