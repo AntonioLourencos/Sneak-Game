@@ -11,7 +11,7 @@ def SneakSystem(count: int = 0):
             question = str(input(
                 f"There have already been {count} mistake(s), will you try again? (Y/N) "))
 
-            question.lower()
+            question = question.lower()
 
             if(question == ""):
                 count = count + 1
@@ -23,9 +23,9 @@ def SneakSystem(count: int = 0):
                 print("Your answer should be Y or N")
                 sleep(2)
                 return SneakSystem(count)
-            elif(question is "n"):
+            elif(question == "n"):
                 return Sneak.close()
-            elif(question is "y"):
+            elif(question == "y"):
                 pass
             else:
                 count = count + 1
