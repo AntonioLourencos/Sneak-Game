@@ -1,6 +1,10 @@
 {
   "fruitColor": "#f28910",
   "bodySneak": "#343638",
-  "velocity": 5,
-  "display": [700, 500]
+  "background": "#ffffff",
+  "gameOverColor": "#ff0000",
+  "difficulty": 5,
+  "size": 20,
+  "move": 10,
+  "display": [600, 600]
 }

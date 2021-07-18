@@ -1,1 +1,5 @@
-pygame
+REQUIRIMENTS GLOBAL
+pygame 2.0.1
+
+REQUIRIMENTS LINUX
+libsdl2-ttf-2.0-0
